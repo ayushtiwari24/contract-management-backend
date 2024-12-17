@@ -36,7 +36,8 @@ app.get("/", (req, res) => {
 });
 
 // Example: Register API routes
-const contractRoutes = require("./routes/contracts");
+const contractRoutes = require("./routes/contractRoutes");
+
 app.use("/api", contractRoutes);
 
 // Start the server
